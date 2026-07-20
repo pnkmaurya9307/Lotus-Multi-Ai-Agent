@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🪷 LotusAi
+# 🪷 LotusAI
 
 ### A Multi-Agent AI Platform Built on a Microservices Architecture
 
@@ -21,9 +21,9 @@
 
 ## Overview
 
-**LotusAi** is a full-stack, production-style AI assistant platform that goes beyond a single chatbot. It's built as five independent microservices behind a single API gateway, giving it the flexibility to route a user's request to a specialized AI agent depending on what they actually need — a chat reply, a coding solution, a generated PDF report, a full PowerPoint deck, image analysis, or a live web search — all inside one seamless interface.
+**LotusAI** is a full-stack, production-style AI assistant platform that goes beyond a single chatbot. It's built as five independent microservices behind a single API gateway, giving it the flexibility to route a user's request to a specialized AI agent depending on what they actually need — a chat reply, a coding solution, a generated PDF report, a full PowerPoint deck, image analysis, or a live web search — all inside one seamless interface.
 
-Rather than relying on a single AI provider, LotusAi's agent layer is model-agnostic: it can call **Google Gemini, Groq, OpenRouter, or DeepSeek** interchangeably, orchestrated through **LangGraph** as a stateful agent graph, with **Qdrant** providing vector search for document-grounded (RAG) conversations.
+Rather than relying on a single AI provider, LotusAI's agent layer is model-agnostic: it can call **Google Gemini, Groq, OpenRouter, or DeepSeek** interchangeably, orchestrated through **LangGraph** as a stateful agent graph, with **Qdrant** providing vector search for document-grounded (RAG) conversations.
 
 ---
 
@@ -45,7 +45,7 @@ Rather than relying on a single AI provider, LotusAi's agent layer is model-agno
 
 ## 🏗️ Architecture
 
-LotusAi follows a **microservices architecture** — each concern is an independently deployable Node.js service, unified behind a single API gateway.
+LotusAI follows a **microservices architecture** — each concern is an independently deployable Node.js service, unified behind a single API gateway.
 
 ```mermaid
 graph TD
@@ -144,7 +144,7 @@ Each service owns its own database connection, its own dependencies, and can be 
 ## 📁 Project Structure
 
 ```
-LotusAi/
+LotusAI/
 ├── frontend/                  # React + Vite client
 │   └── src/
 │       ├── components/        # Chat UI, Sidebar, Billing drawer, etc.
@@ -174,8 +174,8 @@ LotusAi/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/pnkmaurya9307/LotusAi.git
-cd LotusAi
+git clone https://github.com/pnkmaurya9307/LotusAI.git
+cd LotusAI
 ```
 
 ### 2. Start Redis
