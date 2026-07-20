@@ -174,7 +174,7 @@ LotusAi/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/LotusAi.git
+git clone https://github.com/pnkmaurya9307/LotusAi.git
 cd LotusAi
 ```
 
@@ -245,6 +245,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 <div align="center">
 
-**Built by [Your Name]** — feel free to ⭐ this repo if you find it interesting!
+**Built by [Pnkmaurya9307]** — feel free to ⭐ this repo if you find it interesting!
 
 </div>
