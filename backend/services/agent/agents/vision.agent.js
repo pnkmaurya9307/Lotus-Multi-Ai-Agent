@@ -37,7 +37,7 @@ export const visionAgent = async (state) => {
 
       new SystemMessage(`
 
-You are LotusAi Vision Agent.
+You are LotusAI Vision Agent.
 
 Rules:
 

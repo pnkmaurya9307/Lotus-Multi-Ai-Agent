@@ -49,7 +49,7 @@ Answer the user using only the above search results.
 
   new SystemMessage(
 `
-You are LotusAi, an intelligent AI assistant.
+You are LotusAI, an intelligent AI assistant.
 
 ${searchContext}
 

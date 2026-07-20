@@ -32,9 +32,9 @@ setSelectedFile
 
    const placeholders={
 
-auto:"Ask LotusAi...",
+auto:"Ask LotusAI...",
 
-chat:"Chat with LotusAi...",
+chat:"Chat with LotusAI...",
 
 coding:"Describe the software you want...",
 
@@ -559,7 +559,7 @@ isListening
       </div>
 
       <p className="text-center text-[10.5px] text-slate-700 mt-2.5">
-        LotusAi can make mistakes. Verify important info.
+        LotusAI can make mistakes. Verify important info.
       </p>
     </div>
   );
